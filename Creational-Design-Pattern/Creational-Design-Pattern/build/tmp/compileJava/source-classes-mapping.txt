@@ -1,8 +1,8 @@
-Creational/Design/Pattern/PrototypeDesignPattern/PrototypeDesignPatternDemo.java
- Creational.Design.Pattern.PrototypeDesignPattern.PrototypeDesignPatternDemo
-Creational/Design/Pattern/Main.java
- Creational.Design.Pattern.Main
-Creational/Design/Pattern/PrototypeDesignPattern/CoffeeShop.java
- Creational.Design.Pattern.PrototypeDesignPattern.CoffeeShop
 Creational/Design/Pattern/PrototypeDesignPattern/Coffee.java
  Creational.Design.Pattern.PrototypeDesignPattern.Coffee
+Creational/Design/Pattern/Main.java
+ Creational.Design.Pattern.Main
+Creational/Design/Pattern/PrototypeDesignPattern/PrototypeDesignPatternDemo.java
+ Creational.Design.Pattern.PrototypeDesignPattern.PrototypeDesignPatternDemo
+Creational/Design/Pattern/PrototypeDesignPattern/CoffeeShop.java
+ Creational.Design.Pattern.PrototypeDesignPattern.CoffeeShop
