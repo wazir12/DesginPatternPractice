@@ -6,3 +6,13 @@ Creational/Design/Pattern/PrototypeDesignPattern/PrototypeDesignPatternDemo.java
  Creational.Design.Pattern.PrototypeDesignPattern.PrototypeDesignPatternDemo
 Creational/Design/Pattern/PrototypeDesignPattern/CoffeeShop.java
  Creational.Design.Pattern.PrototypeDesignPattern.CoffeeShop
+builderDesignPattern/Manufacturer.java
+ builderDesignPattern.Manufacturer
+builderDesignPattern/BuilderDesignPatternDemoClient.java
+ builderDesignPattern.BuilderDesignPatternDemoClient
+builderDesignPattern/MobileBuilder.java
+ builderDesignPattern.MobileBuilder
+builderDesignPattern/Mobile.java
+ builderDesignPattern.Mobile
+builderDesignPattern/MobileConcreteBuilder.java
+ builderDesignPattern.MobileConcreteBuilder
