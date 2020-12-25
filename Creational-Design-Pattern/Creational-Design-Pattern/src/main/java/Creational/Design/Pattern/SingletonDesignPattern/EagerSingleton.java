@@ -10,7 +10,7 @@ package Creational.Design.Pattern.SingletonDesignPattern;
  * @author simchu
  */
 public class EagerSingleton {
-    
+    //Object is created at the time of class loading
     private static final EagerSingleton singleton = new EagerSingleton();
 
     private EagerSingleton() {
