@@ -38,3 +38,23 @@ Creational/Design/Pattern/SingletonDesignPattern/BillPughSingleton/BillPughSingl
  Creational.Design.Pattern.SingletonDesignPattern.BillPughSingleton.BillPughSingleton
  Creational.Design.Pattern.SingletonDesignPattern.BillPughSingleton.BillPughSingleton$1
  Creational.Design.Pattern.SingletonDesignPattern.BillPughSingleton.BillPughSingleton$SingletonHelper
+Creational/Design/Pattern/SimpleFactoryPatter/SimpleFactoryDesignDemo.java
+ Creational.Design.Pattern.SimpleFactoryPatter.SimpleFactoryDesignDemo
+Creational/Design/Pattern/SimpleFactoryPatter/RDBMS.java
+ Creational.Design.Pattern.SimpleFactoryPatter.RDBMS
+Creational/Design/Pattern/SimpleFactoryPatter/Database.java
+ Creational.Design.Pattern.SimpleFactoryPatter.Database
+Creational/Design/Pattern/SimpleFactoryPatter/DBMS.java
+ Creational.Design.Pattern.SimpleFactoryPatter.DBMS
+Creational/Design/Pattern/SimpleFactoryPatter/SimpleDatabaseFactory.java
+ Creational.Design.Pattern.SimpleFactoryPatter.SimpleDatabaseFactory
+Creational/Design/Pattern/FactoryMethosDesignPattern/FactoryMethodDesignPattern.java
+ Creational.Design.Pattern.FactoryMethosDesignPattern.FactoryMethodDesignPattern
+Creational/Design/Pattern/FactoryMethosDesignPattern/TextMessage.java
+ Creational.Design.Pattern.FactoryMethosDesignPattern.TextMessage
+Creational/Design/Pattern/FactoryMethosDesignPattern/Message.java
+ Creational.Design.Pattern.FactoryMethosDesignPattern.Message
+Creational/Design/Pattern/FactoryMethosDesignPattern/MessageFactory.java
+ Creational.Design.Pattern.FactoryMethosDesignPattern.MessageFactory
+Creational/Design/Pattern/FactoryMethosDesignPattern/JSONMessage.java
+ Creational.Design.Pattern.FactoryMethosDesignPattern.JSONMessage
