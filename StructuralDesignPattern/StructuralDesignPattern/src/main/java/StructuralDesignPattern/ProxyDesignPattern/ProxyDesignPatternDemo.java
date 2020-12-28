@@ -20,6 +20,7 @@ class ActualImage implements image{
        System.out.println("This is the real image");
     }
 }
+//protection proxy
 class ProxyImage implements image{
 
     ActualImage realImage;
@@ -35,9 +36,27 @@ class ProxyImage implements image{
     }
     
 }
+//remote proxy
+class ProxyImageCache implements image{
+
+    ActualImage realImage;
+
+    
+    
+    @Override
+    public void displayImage() {
+            System.out.println("Checking if image is in Cache...");
+            realImage = new ActualImage();
+            realImage.displayImage();
+    }
+    
+}
 public class ProxyDesignPatternDemo {
     public static void main(String[] args){
         ProxyImage proxy = new ProxyImage();
         proxy.displayImage();
+        
+        ProxyImageCache remoteProxy = new ProxyImageCache();
+        remoteProxy.displayImage();
     }
 }
