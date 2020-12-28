@@ -46,8 +46,17 @@ StructuralDesignPattern/FlyweightDesignPattern/FlyweightDesignPatternDemo.java
  StructuralDesignPattern.FlyweightDesignPattern.Order
  StructuralDesignPattern.FlyweightDesignPattern.PortfolioFlyweightFactory
  StructuralDesignPattern.FlyweightDesignPattern.Product
+MVC/StudentView.java
+ MVC.StudentView
+MVC/StudentController.java
+ MVC.StudentController
 StructuralDesignPattern/ProxyDesignPattern/ProxyDesignPatternDemo.java
  StructuralDesignPattern.ProxyDesignPattern.ActualImage
  StructuralDesignPattern.ProxyDesignPattern.ProxyDesignPatternDemo
  StructuralDesignPattern.ProxyDesignPattern.ProxyImage
+ StructuralDesignPattern.ProxyDesignPattern.ProxyImageCache
  StructuralDesignPattern.ProxyDesignPattern.image
+MVC/MVCArchitecturalStyleDemo.java
+ MVC.MVCArchitecturalStyleDemo
+MVC/StudentModel.java
+ MVC.StudentModel
