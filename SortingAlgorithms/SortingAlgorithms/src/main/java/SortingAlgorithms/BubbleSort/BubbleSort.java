@@ -12,21 +12,26 @@ package SortingAlgorithms.BubbleSort;
 public class BubbleSort {
   public static void main(String[] args){
       int[] arr = {
-          40,80,10,7,20
+          49,80,7,10,20
       };
       bubbleSort(arr);
   } 
   private static void bubbleSort(int[] arr){
-      
-      for(int i=0; i<arr.length-1;i++){
+     boolean sorted = false;
+      for(int i=0; i<arr.length-1 && !sorted;i++){
+          sorted=true;
           System.out.println("Iteration: "+i);
           for(int j=0;j<arr.length-1-i;j++){
               if(arr[j]>arr[j+1]){
                 int temp = arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1] = temp;
+                
+                sorted = false;
+                
               }
-             
+            
+            System.out.println("Sorted :" + sorted);
             for(int n:arr) {
                 System.out.println(n);
             }
