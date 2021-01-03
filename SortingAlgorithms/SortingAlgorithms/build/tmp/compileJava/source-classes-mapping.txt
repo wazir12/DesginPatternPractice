@@ -2,3 +2,5 @@ SortingAlgorithms/Main.java
  SortingAlgorithms.Main
 SortingAlgorithms/BubbleSort/BubbleSort.java
  SortingAlgorithms.BubbleSort.BubbleSort
+SortingAlgorithms/SelectionSort/SelectionSort.java
+ SortingAlgorithms.SelectionSort.SelectionSort

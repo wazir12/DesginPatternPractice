@@ -22,6 +22,7 @@ public class BubbleSort {
       for(int i=0; i<arr.length-1 && !sorted;i++){
           sorted=true;
           System.out.println("Iteration: "+i);
+          //moving the largest to the bottom
           for(int j=0;j<arr.length-1-i;j++)
           {
               if(arr[j]>arr[j+1])
@@ -36,12 +37,12 @@ public class BubbleSort {
              
             
             System.out.println("Sorted :" + sorted);
-            for(int n:arr) {
-                System.out.println(n);
-            }
+            printArray(arr);
             System.out.println("\n");
               
           }
+          
+          //Moving the smallest to the top
           for(int j=arr.length-1-i;j>i;j--){
               if(arr[j]<arr[j-1]){
                 int temp = arr[j-1];
@@ -53,18 +54,20 @@ public class BubbleSort {
               }
               
             System.out.println("Sorted :" + sorted);
-            for(int n:arr) {
-                System.out.println(n);
-            }
+            printArray(arr);
             System.out.println("\n");
           }
           
       }
-      System.out.println("Final Sorted Array: ");
-      for(int number: arr){
-          System.out.println(number);
-      }
+        printArray(arr);
   }
+
+    public static void printArray(int[] arr) {
+       // System.out.println("Final Sorted Array: ");
+        for(int number: arr){
+            System.out.println(number);
+        }
+    }
   private static void bubbleSort(int[] arr){
      boolean sorted = false;
       for(int i=0; i<arr.length-1 && !sorted;i++){
@@ -89,10 +92,7 @@ public class BubbleSort {
           }
           
       }
-      System.out.println("Final Sorted Array: ");
-      for(int number: arr){
-          System.out.println(number);
-      }
+        printArray(arr);
       
   }
 }
