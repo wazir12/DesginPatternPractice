@@ -17,5 +17,12 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
     }
+    public static void printArray(int[] arr){
+        System.out.print("[ ");
+        for(int i: arr){
+            System.out.print(i+" ");
+        }
+        System.out.print(" ]");
+    }
     
 }

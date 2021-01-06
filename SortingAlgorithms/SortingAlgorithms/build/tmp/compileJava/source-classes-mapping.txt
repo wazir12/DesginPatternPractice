@@ -1,8 +1,10 @@
-SortingAlgorithms/Main.java
- SortingAlgorithms.Main
+SortingAlgorithms/InsertionSort/InsertionSort.java
+ SortingAlgorithms.InsertionSort.InsertionSort
 SortingAlgorithms/BubbleSort/BubbleSort.java
  SortingAlgorithms.BubbleSort.BubbleSort
 SortingAlgorithms/SelectionSort/SelectionSort.java
  SortingAlgorithms.SelectionSort.SelectionSort
-SortingAlgorithms/InsertionSort/InsertionSort.java
- SortingAlgorithms.InsertionSort.InsertionSort
+SortingAlgorithms/Main.java
+ SortingAlgorithms.Main
+SortingAlgorithms/ShellSort/ShellSort.java
+ SortingAlgorithms.ShellSort.ShellSort
