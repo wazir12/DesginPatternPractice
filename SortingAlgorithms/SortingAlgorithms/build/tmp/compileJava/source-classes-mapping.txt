@@ -8,3 +8,5 @@ SortingAlgorithms/Main.java
  SortingAlgorithms.Main
 SortingAlgorithms/ShellSort/ShellSort.java
  SortingAlgorithms.ShellSort.ShellSort
+SortingAlgorithms/ShellSort/QuickSort.java
+ SortingAlgorithms.ShellSort.QuickSort
