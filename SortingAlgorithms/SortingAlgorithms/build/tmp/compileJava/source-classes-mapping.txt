@@ -10,3 +10,5 @@ SortingAlgorithms/ShellSort/ShellSort.java
  SortingAlgorithms.ShellSort.ShellSort
 SortingAlgorithms/ShellSort/QuickSort.java
  SortingAlgorithms.ShellSort.QuickSort
+SortingAlgorithms/MergeSort/MergeSort.java
+ SortingAlgorithms.MergeSort.MergeSort
