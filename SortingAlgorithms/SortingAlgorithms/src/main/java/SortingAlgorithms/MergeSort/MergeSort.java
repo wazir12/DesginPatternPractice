@@ -15,11 +15,14 @@ public class MergeSort {
     
     public static void main(String[] args){
        int[] arr ={
-           10,
+           1,
            14,
+           6,
            5,
-           6,8,11,13,191,212,112
+           8
        } ;
+       System.out.println("Unsorted List:\n");
+       Main.printArray(arr);
        int[] temp = new int[arr.length];
        mergeSort(0, arr.length-1,temp,arr);
        Main.printArray(arr);
@@ -33,9 +36,12 @@ public class MergeSort {
         //Find middle element of array
         int mid = (lb+ub)/2;
         //sort the left array using merge sort
+        
         mergeSort(lb,mid,temp, arr);
+       
         //sort the right array using merge sort
         mergeSort(mid+1,ub,temp,arr);
+       
         //Merge both the array
         merge(arr, temp, lb, ub, mid);
       }

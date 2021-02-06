@@ -1,0 +1,38 @@
+
+A binary tree is a set of 3 Disjoints Sets, where the first subset is called the root and other subsets 
+are either empty or themselves binary tree.
+
+Complete Binary Tree(eg Heap)
+In A almost Binary tree, each node as added Level by Level.
+
+Representing Complete Binary Tree using 1D array 
+    --> Left Element = 2i
+    --> Right Element = 2i+1
+Heap
+    -Heap is complete binary Tree
+    -Two types of heap:
+        - Min Heap - Root element is smallest than it child elements
+        - Max Heap - Root node is greatest than its child nodes
+Inserting into a heap:
+
+insertHeap(A[],n):
+    //Insert Element at A[n] into heap that is maintained
+    //in A[1..n-1]
+    i = n
+    item = A[i]
+    parent = floor(i/2)
+    
+    // as long as the parent index is valid and the value at parent is less than
+    // current item
+    while(parent > 0 and A[i]<item)
+        {
+            A[i] = A[parent]
+            i = parent
+            parent = floor(i/2)
+        }   
+     A[i] = item
+
+Delete from Heap:
+
+
+
