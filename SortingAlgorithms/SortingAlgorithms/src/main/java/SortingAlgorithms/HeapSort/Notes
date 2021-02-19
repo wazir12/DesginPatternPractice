@@ -33,6 +33,22 @@ insertHeap(A[],n):
      A[i] = item
 
 Delete from Heap:
+    deleteHeap(A[], heap_size)
+        if(heap_size == 0)
+            print "Heap is Empty"
+            return -1
+        
+        //get Content of root in variable
+        item = A[1]
+        //Copy Content of last node to root
+        A[1] = A[heap_size]
+        // to Delete the element  reduce heap size by 1
+        heap_size = heap_size-1
+        //Call Adjust Operation for restoring heap at index 1
+        Adjust(A,1,heap_size)
+        return item
+        
+        
 
 
 
